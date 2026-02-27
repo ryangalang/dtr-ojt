@@ -1,4 +1,5 @@
 {
   "rewrites": [{ "source": "/(.*)", "destination": "/" }],
-  "buildCommand": "npx vite build"
+  "installCommand": "npm install --foreground-scripts",
+  "buildCommand": "node node_modules/vite/bin/vite.js build"
 }
